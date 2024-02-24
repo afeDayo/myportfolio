@@ -645,7 +645,7 @@
 }
 
 .pro-skills img:hover {
-  transform: rotateY(360deg);
+  transform: rotateX(360deg);
 }
 
 .html {
