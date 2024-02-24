@@ -264,9 +264,9 @@ const LandingPage = () => {
           </div>
           <p className="name-big">I'm Afe, Temidayo</p>
           <p className="based">
-            I am a full-stack web developer based in Nigeria, fueled by an
-            insatiable quest for innovative solutions to tackle everyday
-            problems head-on.
+            A voracious learner, an optimist, open-minded, solution-oriented,
+            and design-minded individual, I advocate applying what works to
+            ensure results are achieved.
           </p>
         </div>
         <div
