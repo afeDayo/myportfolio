@@ -270,7 +270,7 @@ const LandingPage = () => {
           <p className="based">
             A voracious learner, an optimist, open-minded, solution-oriented,
             and design-minded individual, I advocate applying what works to
-            ensure.
+            ensure result is gotten.
           </p>
         </div>
         <div
