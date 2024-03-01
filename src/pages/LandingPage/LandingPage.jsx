@@ -251,6 +251,10 @@ const LandingPage = () => {
 
   const githubProfileUrl = "https://github.com/afeDayo";
 
+  // ======================WHATSAPP LINK=========================
+
+  const whatsap = "https://wa.me/+2348124374721";
+
   return (
     <div className="landsec container">
       <div className="hero-section">
@@ -266,7 +270,7 @@ const LandingPage = () => {
           <p className="based">
             A voracious learner, an optimist, open-minded, solution-oriented,
             and design-minded individual, I advocate applying what works to
-            ensure results are achieved.
+            ensure.
           </p>
         </div>
         <div
@@ -372,7 +376,11 @@ const LandingPage = () => {
                   </div>
                   <div className="firstpicons">
                     <img src={phonecall} alt="phonecall" />
-                    <img src={whatsapp} alt="whatsapp" />
+
+                    <a href={whatsap} target="_blank" rel="noopr noref">
+                      <img src={whatsapp} alt="whatsapp" />
+                    </a>
+
                     <img
                       className="yodcv"
                       src={cv}

@@ -80,6 +80,10 @@ const NavBar = () => {
 
   const githubProfileUrl = "https://github.com/afeDayo";
 
+  // ======================WHATSAPP LINK=========================
+
+  const whatsap = "https://wa.me/+2348124374721";
+
   return (
     <div id="top">
       <nav className="navbar navbar-expand-lg navbar-light all-nav container">
@@ -89,7 +93,6 @@ const NavBar = () => {
             onClick={handleClickLogo}
           >
             <img className="myAlogo" src={logoo} alt="logo" />
-           
           </div>
           <button
             className="navbar-toggler burger"
@@ -106,7 +109,7 @@ const NavBar = () => {
             className="text-start collapse navbar-collapse all-lin"
             id="navbarSupportedContent"
           >
-            <ul className="me-auto mb-2 mb-lg-0 nav-lin">
+            <ul className="me-auto mb-2 mb-lg-0 nav-lin navbar-nav">
               <li className="nav-item">
                 <Link
                   to="top"
@@ -191,7 +194,11 @@ const NavBar = () => {
               </div>
               <div className="firstpicons">
                 <img src={phonecall} alt="phonecall" />
-                <img src={whatsapp} alt="whatsapp" />
+
+                <a href={whatsap} target="_blank" rel="noopr noref">
+                  <img src={whatsapp} alt="whatsapp" />
+                </a>
+
                 <img
                   className="yodcv"
                   src={cv}

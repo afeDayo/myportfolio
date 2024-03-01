@@ -645,7 +645,7 @@
 }
 
 .pro-skills img:hover {
-  transform: rotateX(360deg);
+  width: 120px;
 }
 
 .html {
@@ -753,6 +753,10 @@
   .pro-skills img {
     width: 80px;
   }
+
+  .pro-skills img:hover {
+    width: 100px;
+  }
 }
 
 /* Media queries for mobile devices */
@@ -792,6 +796,10 @@
 
   .pro-skills img {
     width: 60px;
+  }
+
+  .pro-skills img:hover {
+    width: 80px;
   }
 }
 
