@@ -5,12 +5,14 @@ import Lottie from "react-lottie";
 import animationData from "../../assets/Assets/Logos/Animation - 1706860637472 (1).json";
 import toast, { Toaster } from "react-hot-toast";
 import illus1 from "../../assets/Assets/Logos/Picture6.png";
-import mecoding from "../../assets/Assets/Logos/Me8.jpg";
+import mecoding from "../../assets/allme.png";
 import circle3d from "../../assets/Assets/Logos/ball.png";
 import illu2 from "../../assets/Assets/Logos/Picture14.png";
 import illu3 from "../../assets/Assets/Logos/Picture9.png";
 import dot3 from "../../assets/Assets/Logos/dot3.png";
 import dot4 from "../../assets/Assets/Logos/dot4.png";
+import meone from "../../assets/me1.png";
+import mebkone from "../../assets/mebk1.png";
 import dot2 from "../../assets/Assets/Logos/dot2.png";
 import ex4 from "../../assets/Assets/Logos/ex4.png";
 import arrowleft from "../../assets/Assets/Logos/arrow2.png";
@@ -273,12 +275,18 @@ const LandingPage = () => {
             ensure result is gotten.
           </p>
         </div>
+        <div className="illustration ">
+          <img className="mebkone" src={mebkone} alt="" />
+        </div>
+
         <div
-          className="illustration reveal-from-bottom"
+          className="reveal-from-bottom mediv"
           data-sr="enter bottom 30px over 1s"
         >
           <img className="rotating-img" src={illus1} alt="" />
+          <img className="meone" src={meone} alt="" />
         </div>
+
         <div
           className="social-links reveal-from-bottom"
           data-sr="enter bottom 30px over 1s"
