@@ -283,8 +283,8 @@ const LandingPage = () => {
           className="reveal-from-bottom mediv"
           data-sr="enter bottom 30px over 1s"
         >
-          <img className="rotating-img" src={illus1} alt="" />
           <img className="meone" src={meone} alt="" />
+          <img className="rotating-img" src={illus1} alt="" />
         </div>
 
         <div

@@ -258,7 +258,8 @@
   .meone {
     position: absolute;
     width: 150px;
-    right: 100px;
+    left: 50%;
+    transform: translateX(-222%);
     bottom: -1px;
   }
 
@@ -272,6 +273,80 @@
     width: 60px;
     right: 70px;
     top: -250px;
+  }
+}
+
+@media (max-width: 575px) {
+  .meone {
+    position: absolute;
+    width: 150px;
+    left: -9px;
+    top: auto;
+  }
+}
+@media (max-width: 428px) {
+  .meone {
+    position: absolute;
+    width: 150px;
+    left: 56px;
+    top: auto;
+  }
+}
+@media (max-width: 414px) {
+  .meone {
+    position: absolute;
+    width: 150px;
+    left: 63px;
+    top: auto;
+  }
+}
+@media (max-width: 412px) {
+  .meone {
+    position: absolute;
+    width: 150px;
+    left: 64px;
+    top: auto;
+  }
+}
+@media (max-width: 393px) {
+  .meone {
+    position: absolute;
+    width: 150px;
+    left: 74px;
+    top: auto;
+  }
+}
+@media (max-width: 390px) {
+  .meone {
+    position: absolute;
+    width: 150px;
+    left: 75px;
+    top: auto;
+  }
+}
+@media (max-width: 375px) {
+  .meone {
+    position: absolute;
+    width: 150px;
+    left: 83px;
+    top: auto;
+  }
+}
+
+@media (max-width: 360px) {
+  .meone {
+    position: absolute;
+    width: 150px;
+    left: 90px;
+    top: auto;
+  }
+
+  .rotating-img {
+    position: absolute;
+    animation: rotateAnimation 30s linear infinite;
+    width: 60px;
+    left: auto;
+    bottom: auto;
   }
 }
 
