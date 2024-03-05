@@ -232,7 +232,7 @@ const LandingPage = () => {
 
   const downloadResume = () => {
     const resumeLink =
-      "https://drive.google.com/file/d/10kgm36jOwJ5xYTHPeHfrea6SKiv0UdwV/view?usp=sharing";
+      "https://drive.google.com/file/d/1im7-k4VNngu_ZUYlLZkNDBbBz4NKzWXS/view?usp=sharing";
 
     const link = document.createElement("a");
     link.href = resumeLink;
