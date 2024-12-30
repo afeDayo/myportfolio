@@ -908,6 +908,8 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
+    max-height: 0px;
+    max-width: 0px;
   }
 
   .prim-s,
@@ -915,6 +917,8 @@
     flex-direction: column;
     align-items: start;
     gap: 20px;
+    max-height: 0px;
+    max-width: 0px;
   }
 
   .pro-skills img {
@@ -952,6 +956,8 @@
     flex-direction: column;
     align-items: start;
     margin-top: 10px;
+    max-height: 0px;
+    max-width: 0px;
   }
 
   .prim-s,
@@ -959,6 +965,8 @@
     flex-direction: column;
     align-items: start;
     margin-bottom: 20px;
+    max-height: 0px;
+    max-width: 0px;
   }
 
   .pro-skills img {
