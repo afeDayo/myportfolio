@@ -778,6 +778,8 @@
 .pro-skills {
   position: absolute;
   margin-top: 50px;
+  max-height: 300px;
+  max-width: 1180px;
 }
 
 .pro-skills h5 {
@@ -871,12 +873,16 @@
   align-items: center;
   margin-bottom: 100px;
   gap: 10px;
+  max-width: 1160px;
+  max-height: 100px;
 }
 
 .seco-s {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1160px;
+  max-height: 100px;
 }
 
 /* Media queries for tablets */
@@ -1017,6 +1023,14 @@
 .prodep2,
 .prodep4 {
   text-align: end;
+}
+
+.web2 img {
+  border-radius: 20px;
+}
+
+.web3 img {
+  border-radius: 20px;
 }
 
 .proo img {

@@ -25,9 +25,9 @@ import node from "../../assets/Assets/Logos/node.png";
 import vue from "../../assets/Assets/Logos/vue.png";
 import sass from "../../assets/Assets/Logos/sass.png";
 import web7 from "../../assets/Assets/Logos/web7.png";
-import web2 from "../../assets/Assets/Logos/web2.png";
+import web2 from "../../assets/Assets/Logos/des6.png";
 import web5 from "../../assets/Assets/Logos/web5.png";
-import web3 from "../../assets/Assets/Logos/web3.png";
+import web3 from "../../assets/Assets/Logos/mpay.png";
 import { FaAngleDoubleRight } from "react-icons/fa";
 import arrowddown from "../../assets/Assets/Logos/arrow1.png";
 import cross1 from "../../assets/Assets/Logos/cross1.png";
@@ -333,12 +333,11 @@ const LandingPage = () => {
           />
           <div className="parab">
             <p className="highly">
-              Highly motivated and recently graduated Full Stack Web Developer,
-              offering a dynamic skill set honed through experience as a Digital
+              Highly motivated and Full Stack Web Developer & tutor, offering a
+              dynamic skill set honed through experience as a Digital
               Strategist. I have spent time converting designs into{" "}
               <span>
-                pixel-perfect, performant, accessible and responsive
-                applications/websites
+                pixel-perfect, accessible and responsive applications/websites
               </span>
               . You can simply describe me as a front end developer addict.
             </p>
@@ -348,11 +347,11 @@ const LandingPage = () => {
               data-sr="enter bottom 100px over 1s"
             >
               <div className="abnum1">
-                <p className="plusnum">1+</p>
+                <p className="plusnum">3+</p>
                 <p className="texnum">Years of Experience</p>
               </div>
               <div className="abnum2">
-                <p className="plusnum">7+</p>
+                <p className="plusnum">11+</p>
                 <p className="texnum">Successfully Completed Projects</p>
               </div>
               <div className="abnum3">
@@ -464,28 +463,28 @@ const LandingPage = () => {
               <img src={html} alt="html" />
               <div>
                 <h5>HTML</h5>
-                <p>1 Year Experience</p>
+                <p>3 Years Experience</p>
               </div>
             </div>
             <div className="css">
               <img src={css} alt="css" />
               <div>
                 <h5>CSS</h5>
-                <p>1 Year Experience</p>
+                <p>3 Years Experience</p>
               </div>
             </div>
             <div className="java">
               <img src={java} alt="javascript" />
               <div>
                 <h5>JAVASCRIPT</h5>
-                <p>1 Year Experience</p>
+                <p>3 Years Experience</p>
               </div>
             </div>
             <div className="react">
               <img src={react} alt="react" />
               <div>
                 <h5>REACT.JS</h5>
-                <p>6 Months Experience</p>
+                <p>2 years Experience</p>
               </div>
             </div>
           </div>
@@ -505,7 +504,7 @@ const LandingPage = () => {
               <img src={node} alt="node" />
               <div>
                 <h5>NODE.JS</h5>
-                <p>6 Months Experience</p>
+                <p>1 year Experience</p>
               </div>
             </div>
             <div className="vue">
@@ -539,8 +538,8 @@ const LandingPage = () => {
           >
             <img src={web7} alt="web7" />
             <div className="prodep1 mt-4">
-              <p>Project Name</p>
-              <h5>Date</h5>
+              <p>MOVIE WEB-APP</p>
+              <h5>02/15/2024</h5>
             </div>
           </div>
           <div
@@ -548,8 +547,8 @@ const LandingPage = () => {
             data-sr="enter left 50px over 1s"
           >
             <div className="prodep2 mb-4">
-              <p>Project Name</p>
-              <h5>Date</h5>
+              <p>SPACE TRAVEL WEB-APP</p>
+              <h5>03/17/2024</h5>
             </div>
             <img src={web2} alt="web2" />
           </div>
@@ -559,8 +558,8 @@ const LandingPage = () => {
           >
             <img src={web3} alt="web3" />
             <div className="prodep3 mt-4">
-              <p>Project Name</p>
-              <h5>Date</h5>
+              <p>MPAY FINTECH WEB-APP</p>
+              <h5>03/29/2024</h5>
             </div>
           </div>
           <div
